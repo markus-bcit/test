@@ -1,3 +1,46 @@
 body {
-    background-color: tan;
+  background-color: tan;
+}
+
+.pinkBG{
+    background-color: pink;
+}
+/* default css - applied to both mobile and desktop */
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  text-align: center;
+}
+/* .submit {
+  margin: 0 auto;
+  display: block;
+} */
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  /* only add rules that need to be changes */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .lists{
+    display: flex;
+    justify-content: space-around;
+  }
 }
