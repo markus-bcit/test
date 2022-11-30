@@ -1,6 +1,10 @@
 body {
   background-color: tan;
 }
+
+.pinkBG{
+    background-color: pink;
+}
 /* default css - applied to both mobile and desktop */
 .form {
   display: grid;
